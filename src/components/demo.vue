@@ -26,14 +26,13 @@ export default {
   },
   methods: {
     increment() {
-      console.log("call cmng");
-      //   this.$store.commit("increment");
+      
       this.$store.dispatch("increment");
     }
   }
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+
 <style scoped>
 </style>
